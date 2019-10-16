@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/be0c43c713.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>iRestro - Order</title>
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top py-4"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">iRestro</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#login"
+                data-toggle="modal"
+                data-target="#login"
+                class="nav-link"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- LOGIN -->
+
+    <div class="modal" id="login">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">LogIn</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username"></label>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="password"></label>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="text-center my-3">OR</div>
+              <div class="text-center mb-2">
+                <button class="btn btn-facebook">
+                  Login with Facebook
+                  <span class="ml-1"
+                    ><i class="fab fa-facebook-square fa-lg"></i
+                  ></span>
+                </button>
+
+                <button class="btn btn-danger">
+                  Login with Google
+                  <span class="ml-1"
+                    ><i class="fab fa-google-plus-square fa-lg"></i
+                  ></span>
+                </button>
+              </div>
+              <div class="text-center">
+                <small
+                  >Not signed up? <a href="register.html">Register</a>
+                </small>
+              </div>
+
+              <div class="modal-footer">
+                <button class="btn btn-primary">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="display-4 mt-5 pt-5">
+                Simple Process
+              </h1>
+              <div class="d-flex justify-content-center">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Choose your Location
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Make your choices and Order
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Food gets delivered to your door
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <select
+              type="text"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter city"
+            >
+              <option value="" disabled selected>Select your City</option>
+              <option value="Pokhara">Pokhara</option>
+              <option value="Kathmandu">Kathmandu</option>
+              <option value="Butwal">Butwal</option>
+              <option value="Chitwan">Chitwan</option>
+              <option value="Dharan">Dharan</option>
+              <option value="Biratnagar">Biratnagar</option>
+              <option value="Nepalgunj">Nepalgunj</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <select
+              type="email"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter location"
+            >
+              <option value="" disabled selected>Select your Location</option>
+              <option value="Bagar">Bagar</option>
+              <option value="Lakeside">Lakeside</option>
+              <option value="Sundhara">Sundhara</option>
+              <option value="Boudha">Boudha</option>
+              <option value="Butwal">Butwal</option>
+              <option value="Chitwan">Chitwan</option>
+              <option value="Dharan">Dharan</option>
+              <option value="Biratnagar">Biratnagar</option>
+              <option value="Mahendrapool">Mahendrapool</option>
+              <option value="Nayabazar">Nayabazar</option>
+              <option value="Nepalgunj">Nepalgunj</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <button
+              onclick="location.href='order.html'"
+              class="btn btn-primary btn-lg btn-block"
+            >
+              GO
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOXES -->
+    <section id="boxes" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Fast</h3>
+                <i class="fas fa-shipping-fast text-primary fa-3x"></i>
+                <p class="text-muted">
+                  Fast delivery services
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Delicious</h3>
+                <i class="fas fa-hamburger fa-3x text-primary"></i>
+                <p class="text-muted">
+                  Amazing and delicious cuisine
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Fresh</h3>
+                <i class="fas fa-mug-hot fa-3x text-primary"></i>
+                <p class="text-muted">
+                  Freshly cooked food
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                About Us
+              </h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus obcaecati alias rerum dolore fugiat debitis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Get In Touch</h3>
+            <p class="lead">
+              Suggestions are much appreciated.
+            </p>
+            <form>
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <input
+                type="submit"
+                value="Submit"
+                class="btn btn-primary btn-block btn-lg"
+              />
+            </form>
+          </div>
+
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-content">
+      <div class="layer footer">
+        <div class="container-fluid bg-primary text-white">
+          <div class="row footer-top-inner-w3ls py-3">
+            <div class="col-lg-4 col-md-6 ml-4 footer-top mt-md-0 mt-sm-5">
+              <h2>
+                iRestro
+              </h2>
+              <p class="my-3">"Delivering yummies to your place"</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Delivery Hours</h3>
+                <hr />
+                <ul class="list-info-w3pvt last-w3ls-contact mt-lg-4">
+                  <li>
+                    <p>Sunday - Friday 08:00am - 08:00pm</p>
+                  </li>
+                  <li class="my-2">
+                    <p>Saturday 10:00am - 05:00pm</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ml-4 mt-lg-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Contact Us</h3>
+                <hr />
+                <div class="last-w3ls-contact">
+                  <p>
+                    irestro@gmail.com
+                  </p>
+                </div>
+                <div class="last-w3ls-contact my-2">
+                  <p>+9779806782031</p>
+                </div>
+                <div class="last-w3ls-contact">
+                  <p>Pokhara, Nepal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p
+            class="copy-right-grids text-li text-white mb-0 text-center mt-sm-4 mt-4"
+          >
+            © <span id="year"></span> iRestro. All Rights Reserved | iRestro
+            Team
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+
+      // Init Scrollspy
+      $("body").scrollspy({ target: "#main-nav" });
+
+      // Smooth Scrolling
+      $("#main-nav a").on("click", function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800,
+            function() {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
+  </body>
+</html>

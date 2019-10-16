@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/be0c43c713.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>iRestro - Checkout</title>
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top py-4"
+      id="main-nav"
+    >
+      <div class="container justify-content-center">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">iRestro</h3>
+        </a>
+      </div>
+    </nav>
+
+    <section class="hero banner banner--general">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Checkout</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="forms bg-light container py-5 my-5 col-md-4">
+      <form action="#">
+        <div class="form-row">
+          <div class="col">
+            <label for="name">First Name</label>
+            <input type="text" class="form-control" id="first" required />
+          </div>
+          <div class="col">
+            <label for="name">Last Name</label>
+            <input type="text" class="form-control" id="last" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Contact No.</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Alternate Contact No.</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="rremail">Address</label>
+          <input type="email" class="form-control" id="reemail" required />
+        </div>
+        <div class="form-group">
+          <label for="email">House No.</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Order Time</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+
+        <input type="submit" value="Order" class="btn btn-primary btn-block
+        mt-4"
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-content">
+      <div class="layer footer">
+        <div class="container-fluid bg-primary text-white">
+          <div class="row footer-top-inner-w3ls py-3">
+            <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
+              <h2>
+                iRestro
+              </h2>
+              <p class="my-3">"Delivering yummies to your place"</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Delivery Hours</h3>
+                <hr />
+                <ul class="list-info-w3pvt last-w3ls-contact mt-lg-4">
+                  <li>
+                    <p>Sunday - Friday 08:00am - 08:00pm</p>
+                  </li>
+                  <li class="my-2">
+                    <p>Saturday 10:00am - 05:00pm</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Contact Us</h3>
+                <hr />
+                <div class="last-w3ls-contact">
+                  <p>
+                    irestro@gmail.com
+                  </p>
+                </div>
+                <div class="last-w3ls-contact my-2">
+                  <p>+9779806782031</p>
+                </div>
+                <div class="last-w3ls-contact">
+                  <p>Pokhara, Nepal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p
+            class="copy-right-grids text-li text-white mb-0 text-center mt-sm-4 mt-4"
+          >
+            © <span id="year"></span> iRestro. All Rights Reserved | iRestro
+            Team
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

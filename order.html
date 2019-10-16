@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/be0c43c713.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>iRestro - Order</title>
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <div>
+
+    <!-- NAVBAR  -->
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top py-4"
+      id="main-nav"
+    >
+      <div class="container justify-content-center">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">iRestro</h3>
+        </a>
+      </div>
+    </nav>
+
+    <!-- MENU -->
+
+    <div class="container bg-light">
+      <div class="row mt-4">
+        <div id="sidebar" class="col-md-4 col-lg-2 my-5">
+          <ul class="nav flex-md-column flex-row">
+            <li class="recommended">
+              <span class="icomoon icon-whatshot icomoon--green"></span
+              ><span style="color:rgb(4, 8, 4);">Categories</span>
+            </li>
+            <li class="hidden-sm-down">
+              <div class="dropdown-divider"></div>
+            </li>
+
+            <li
+              style="margin-bottom: 0.5rem !important;"
+             
+            >
+              <a href="#breakfast" class="ng-binding">Breakfast</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#springroll">Spring Roll</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#burger">Burger</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#thukpa">Thukpa</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#chopsuey">Chopsuey</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#chowmein">Chowmein</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#friedrice">Fried Rice</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#pulau"
+                >Pulau &amp; Biryani</a
+              >
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#pizza">Pizza</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#momo">Mo:Mo</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#frychicken">Fry Chicken</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#tandoori">Tanadoori</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#vegcurry">Vegetable Curry</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#naan">Naan / Paratha</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#salad">Salad</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#mCurry">Mutton Curry</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#cCurry">Chicken Curry</a>
+            </li>
+
+            <li
+              
+              style="margin-bottom: 0.5rem !important;"
+              
+            >
+              <a href="#fCurry">Fish Curry</a>
+            </li>           
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-6 my-5 bg-light">
+          <div class="menu__content wrap">
+            <div class="breakfast">
+              <div id="breakfast" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Breakfast</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Butter Toast</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="menu__price
+                  text-primary"
+                  >
+                    <span class="">Rs.95.00</span>
+                    <a href="#"
+                      ><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Sandwich</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="menu__price
+                                  text-primary"
+                  >
+                    <span class="">Rs.190.00</span>
+                    <a href="#"
+                      ><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span
+                    ></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Club Sandwich</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="menu__price
+                                  text-primary"
+                  >
+                    <span class="">Rs.285.00</span>
+                    <a href="#"
+                      ><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span
+                    ></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Jam Toast</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                  text-primary">
+                    <span class="">Rs.95.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Masala Omlet</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                  text-primary">
+                    <span class="">Rs.115.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Plain Toast</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                  text-primary">
+                    <span class="">Rs.85.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li><li class="d-flex mb-1 pb-1 justify-content-between">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Sandwich</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                  text-primary">
+                    <span class="">Rs.150.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>            
+            </div>
+            <div class="springroll">
+              <div id="springroll" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Spring Roll</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Spring Roll</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                              text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mixed Spring Roll</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Spring Roll</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.275.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Spring Roll</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.275.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                
+            </div>
+            <div class="burger">
+              <div id="burger" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Burgers</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Special Burger</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                              text-primary">
+                    <span class="">Rs.270.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Cheese Burger</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.220.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Burger</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.285.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Ham Burger</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.200.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Burger</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                              text-primary">
+                    <span class="">Rs.165.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+              
+              
+            </div>
+            <div class="thukpa">
+              <div id="thukpa" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Thukpa</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Thukpa</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Thukpa</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.195.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mixed Thukpa</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Thukpa</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Thukpa</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.160.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="chopsuey">
+              <div id="chopsuey" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Chopsuey</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">American Chopsuey</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.315.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chinese Chopsuey</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.315.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Chopsuey</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+               
+            
+            </div>
+            <div class="chowmein">
+              <div id="chowmein" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Chowmein</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Chowmein</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Chowmein</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mixed Chowmein</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.220.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Chowmein</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.220.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Chowmein</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.160.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="friedrice">
+              <div id="friedrice" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Fried Rice</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Fried Rice</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                    text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Fried Rice</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.195.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mixed Fried Rice</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Fried Rice</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Fried Rice</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.160.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="pulau">
+              <div id="pulau" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Pulau & Biryani</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Pulau</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.380.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Biryani</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.395.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Pulau</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.330.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Biryani</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.330.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Pulau</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.260.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Biryani</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.230.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="pizza">
+              <div id="pizza" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Pizza</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Cheese Pizza</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.280.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Pizza</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.395.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mixed Pizza</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.330.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mushroom Pizza</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.330.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Pizza</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.260.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="momo">
+              <div id="momo" class="list-header pl-0 mb-3 wrap ">
+                <div class="">MO:MO</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Steam Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Fry Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Jhol Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Steam Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.200.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Fry Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.200.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Jhol Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.200.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Steam Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Fry Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg Steam Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.140.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Veg fry Mo:Mo</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                                      text-primary">
+                    <span class="">Rs.150.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="frychicken">
+              <div id="frychicken" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Fry Chicken</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fry Chicken</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.180.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fry Chicken 1 Dozen</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.1200.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fry Chicken Half Dozen</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.600.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                
+            
+            </div>
+            <div class="tandoori">
+              <div id="tandoori" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Tandoori</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Tandoori</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.250.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Tikka</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.350.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Paneer Tikka</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.350.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+               
+            
+            </div>
+            <div class="vegcurry">
+              <div id="vegcurry" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Vegetable Curry</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chana Masala</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.185.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Dal Curry</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.135.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mix Veg Curry</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.260.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Palak Paneer</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.240.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutter Paneer</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.260.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="naan">
+              <div id="naan" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Naan / Paratha</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Butter Naan</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.170.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Garlic Naan</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.165.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Plain Naan</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.150.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Buff Naan</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.190.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Naan</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.160.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+            
+            </div>
+            <div class="salad">
+              <div id="salad" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Salad</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fruit Salad</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                      text-primary">
+                    <span class="">Rs.260.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Nepali Salad</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                                      text-primary">
+                    <span class="">Rs.170.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+               
+            
+            </div>
+            <div class="mCurry">
+              <div id="mCurry" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Mutton Curry</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Curry</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.315.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Mutton Masala</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.315.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                
+               
+            </div>
+            <div class="cCurry">
+              <div id="cCurry" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Chicken Curry</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Curry</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.240.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Masala</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.250.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Chicken Butter Masala</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.340.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+          
+            
+            </div>
+            <div class="fCurry">
+              <div id="fCurry" class="list-header pl-0 mb-3 wrap ">
+                <div class="">Fish Curry</div>
+              </div>
+              <ul class="nav flex-column menu__items">
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fish Curry</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                          text-primary">
+                    <span class="">Rs.280.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+            
+                <li class="d-flex mb-1 pb-1 justify-content-between item">
+                  <div class="d-flex flex-column" id="Product">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <span class="mr-2">Fish Masala</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__price
+                                                          text-primary">
+                    <span class="">Rs.280.00</span>
+                    <a href="#"><span class="text-primary">
+                        <i class="far fa-plus-square fa-lg"></i> </span></a>
+                  </div>
+                </li>
+                
+            
+            
+            </div>
+          </div>     
+        </div>
+        <div class="col-lg-4 my-5">
+          <div class="sticky-side">
+            <h2 class="small-title">My Bag</h2>
+            <div class="cart__content spinner">
+              <div class="d-flex flex-column">
+                <div class="cart__items-wrapper">
+                  <table class="table cart__restaurant-table">
+                    <thead>
+                      <tr>
+                        <th colspan="3">
+                          <div class="cart__restaurant-name">
+                            <span>iRestro:</span>
+                            <span class="text-primary">470.00 (<a href="#">3 items</a>)</span>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="cart__items">
+                      <tr class="">
+                        <td class="num mr-2">
+                          <span>1x</span>
+                      
+                        </td>
+                        <td width="60%" style="cursor:pointer;"
+                          ><span
+                            >Butter Toast</span>
+                        
+                      </td>
+                      <td class="price text-right" width="40%">
+                        <div >95.00 <span>
+                          <i class="fas fa-plus-square"></i>
+                          <i class="fas text-primary fa-minus-square"></i>
+                          <i class="fas text-primary fa-trash"></i></span>
+                        </div>
+                        
+                      </td>
+                    </tr>
+                    <tr class="">
+                      <td class="num mr-2">
+                        <span>1x</span>
+                    
+                      </td>
+                      <td width="60%" style="cursor:pointer;"><span>Chicken Sandwich</span>
+                    
+                      </td>
+                      <td class="price text-right" width="40%">
+                        <div>190.00 <span>
+                            <i class="fas fa-plus-square"></i>
+                            <i class="fas text-primary fa-minus-square"></i>
+                            <i class="fas text-primary fa-trash"></i></span>
+                        </div>
+                    
+                      </td>
+                    </tr>
+                    <tr class="">
+                      <td class="num mr-2">
+                        <span>1x</span>
+                    
+                      </td>
+                      <td width="60%" style="cursor:pointer;"><span>Ham Burger</span>
+                    
+                      </td>
+                      <td class="price text-right" width="40%">
+                        <div>200.00 <span>
+                            <i class="fas fa-plus-square"></i>
+                            <i class="fas text-primary fa-minus-square"></i>
+                            <i class="fas text-primary fa-trash"></i></span>
+                        </div>
+                    
+                      </td>
+                    </tr>
+                    
+                  
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="cart__summary">
+              <div class="d-flex justify-content-between mb-1 item">
+                <div>
+                  <span class="dim uppercase">SUB TOTAL</span>                   
+                </div>
+                <div class="text-right mr-3">
+                  Rs.
+                  <span>485</span>              
+                </div>
+              </div>
+            </div>
+            <div class="cart__summary">
+              <div class="d-flex justify-content-between mb-1 item">
+                <div>
+                  <span class="dim uppercase">VAT</span>
+                </div>
+                <div class="text-right mr-3">
+                  <span>
+                    0%
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="cart__summary">
+              <div class="d-flex justify-content-between mb-1 item">
+                <div>
+                  <span class="dim uppercase">Delivery Charge</span>
+                </div>
+                <div class="text-right mr-3">
+                  Rs.
+                   <span>50</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="cart__summary">
+              <div class="d-flex justify-content-between mb-1 item">
+                <div>
+                  <span class="dim uppercase">GRAND TOTAL</span>
+                </div>
+                <div class="text-right mr-3">
+                Rs. <span>
+                    535
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+              <div>
+                <button onclick="location.href='checkout.html'" class="btn btn-block btn-primary">
+                  Proceed to Checkout
+                </button>
+              </div>
+        
+
+          </div>
+          
+      
+            
+          
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer-content">
+      <div class="layer footer">
+        <div class="container-fluid bg-primary text-white">
+          <div class="row footer-top-inner-w3ls py-3">
+            <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
+              <h2>
+                iRestro
+              </h2>
+              <p class="my-3">"Delivering yummies to your place"</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Delivery Hours</h3>
+                <hr />
+                <ul class="list-info-w3pvt last-w3ls-contact mt-lg-4">
+                  <li>
+                    <p>Sunday - Friday 08:00am - 08:00pm</p>
+                  </li>
+                  <li class="my-2">
+                    <p>Saturday 10:00am - 05:00pm</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+              <div class="footer-w3pvt">
+                <h3 class="mb-3 w3pvt_title">Contact Us</h3>
+                <hr />
+                <div class="last-w3ls-contact">
+                  <p>
+                    irestro@gmail.com
+                  </p>
+                </div>
+                <div class="last-w3ls-contact my-2">
+                  <p>+9779806782031</p>
+                </div>
+                <div class="last-w3ls-contact">
+                  <p>Pokhara, Nepal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p
+            class="copy-right-grids text-li text-white mb-0 text-center mt-sm-4 mt-4"
+          >
+            © <span id="year"></span> iRestro. All Rights Reserved | iRestro
+            Team
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+
+      // Init Scrollspy
+        $("body").scrollspy({ target: "#sidebar" });
+
+        // Smooth Scrolling
+        $("#sidebar a").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+
+            const hash = this.hash;
+
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+    </script>
+  </body>
+</html>
